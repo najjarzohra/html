@@ -2,50 +2,69 @@
 <html checkpoint>
 <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
     <title>My Second checkpoint</title>
 </head>
 <body>
-    <header>
-<div class="navbar">
-    <a href="#home">Home</a>
+<header class="nav">
+    <nav>
+ <a href="#home">Home</a>
     <a href="#about">About</a>
     <a href="#Work">Work</a>
     <a href="#resume">Resume</a>
     <a href="#contact">Contact</a>
-</header>
-</div>
 
-<div class="forms">
-    <section>
+    </nav>
+  
+</header>
+<main>
+    <section id="home">
+       
+    <h1>This is our home page</h1>
+        
+    <p> this is our html workshop to try the tags in the cours</p>
+    <img src="./images/img1.jpg"alt="" width="500" height="500">
+
+</section>
+<section id="about">
+    <ol> 
+        <li> name:zohra</li>
+        <li> last  name:najjar</li>
+        <li> phone number:57698745</li>
+        <li> email:zahranajjar011@gmail.com</li>
+        <li> academic background: 
+            <ol>
+                <li>go mycode certficat  </li>
+                <li> master degree in computer science</li>
+            </ol>
+        </li>
+    </ol>
+    <iframe width="560" height="315" 
+    src="https://www.youtube.com/embed/G3e-cpL7ofc" 
+    title="YouTube video player" 
+    frameborder="0"
+     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+     allowfullscreen></iframe>
+    
+</section>
+     <section id="contact">
         <form>
-<label> home</label><br>
-<input type="text"><br>
-        </section>
-        <section>
-<label>about</label><br>
-<input type="text"><br>
-</section>
-<section>
-<label>work</label><br>
-<input type="text"><br>
-</section>
-<section>
-<label>resume</label><br>
-<input type="text"><br>
-</section>
-<section>
-<label>contact</label><br>
-<input type="text"><br>
-</section>
+            <label for="fullname">full name</label>
+            <input type="text" name="fullname"/> 
+            <label for="email">email</label>
+            <input type="email" name="email"/>
+            <label for="phonenumber">phone number</label>
+            <input type="number" name="phonenumber"/> 
+            <label for="comment">comment:</label>
+            <input type="textarea" name="comment"/>
         </form>
-    </section>
-</div>
-<div>
+     </section>
+    </main>
+
     <footer>
-    <p>My third checkpoint</p>
+ 
 
 </footer>
-</div>
 
 </body>
 
