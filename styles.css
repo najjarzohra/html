@@ -1,10 +1,55 @@
- .navbar  { font-family: 'Roboto',sans-serif ;
- }
+body {
+    
+font-family: 'Roboto',sans-serif;
 
- .forms { font-family: 'Roboto',sans-serif;
+}
+
+ .nav  { 
+    text-align: right;
+
+background-color:black;
+    font-style:initial;
+    color:cadetblue;
+    opacity: ;
+    padding:25px;
+    overflow: hidden;
+    font-size: 17px;
+    z-index: 999;
  }
- body {
-background: #FFFACD;
+  #home{
+    color:forestgreen;
+ }
+ main {
+    background-image: url("images/11.jpg");
+    opacity: ;;
+    border-image-width: 50px; 
+    padding: 350px;
+    background-repeat: no-repeat;
 
  }
+footer {
+    padding: 30px;
+background-color:darkslategray;
+text-align: center;
+opacity:0.9;
+
+}
+
+ #home h1 {
+    margin-block:0px;
+    text-decoration:solid;
+    color: beige;
+font-family:  "Lucida Console", Courier, monospace;
+padding-bottom:150px;
+text-align:justify;
+
+}
+
+
+
+ 
+
+
+ 
+
 
